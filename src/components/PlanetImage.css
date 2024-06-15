@@ -1,0 +1,27 @@
+.PlanetImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.PlanetImage__img {
+  width: 10.8rem;
+}
+
+@media (min-width: 760px) {
+  .PlanetImage__img {
+    width: 17.8rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .PlanetImage {
+    margin: 0;
+    justify-content: flex-end;
+  }
+
+  .PlanetImage__img {
+    width: 28rem;
+  }
+}

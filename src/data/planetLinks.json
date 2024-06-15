@@ -1,0 +1,34 @@
+[
+  {
+    "to": "/",
+    "label": "Mercury"
+  },
+  {
+    "to": "/venus",
+    "label": "Venus"
+  },
+  {
+    "to": "/earth",
+    "label": "Earth"
+  },
+  {
+    "to": "/mars",
+    "label": "Mars"
+  },
+  {
+    "to": "/jupiter",
+    "label": "Jupiter"
+  },
+  {
+    "to": "/saturn",
+    "label": "Saturn"
+  },
+  {
+    "to": "/uranus",
+    "label": "Uranus"
+  },
+  {
+    "to": "/neptune",
+    "label": "Neptune"
+  }
+]

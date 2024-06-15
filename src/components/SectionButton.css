@@ -1,0 +1,75 @@
+.SectionButton {
+  font-size: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1.93px;
+  padding: 1.2rem 0;
+  text-transform: uppercase;
+}
+
+.SectionButton__num {
+  display: none;
+}
+
+@media (min-width: 760px) {
+  .SectionButton {
+    border: var(--border-color);
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .SectionButton__num {
+    display: inline;
+  }
+}
+
+@media (min-width: 1400px) {
+  .SectionButton {
+    font-size: 0.75rem;
+    padding: 1rem 2rem;
+  }
+
+  .SectionButton:hover {
+    background-color: #838391;
+    border: 2px solid #838391;
+  }
+
+  .Mercury .SectionButton:focus {
+    background-color: #419ebb;
+    border: 2px solid #419ebb;
+  }
+
+  .Earth .SectionButton:focus {
+    background-color: #6f2ed6;
+    border: 2px solid #6f2ed6;
+  }
+
+  .Venus .SectionButton:focus {
+    background-color: #eda249;
+    border: 2px solid #eda249;
+  }
+
+  .Mars .SectionButton:focus {
+    background-color: #d14c32;
+    border: 2px solid #d14c32;
+  }
+
+  .Jupiter .SectionButton:focus {
+    background-color: #d83a34;
+    border: 2px solid #d83a34;
+  }
+
+  .Saturn .SectionButton:focus {
+    background-color: #cd5120;
+    border: 2px solid #cd5120;
+  }
+
+  .Uranus .SectionButton:focus {
+    background-color: #1ec1a2;
+    border: 2px solid #1ec1a2;
+  }
+  .Neptune .SectionButton:focus {
+    background-color: #2d68f0;
+    border: 2px solid #2d68f0;
+  }
+}

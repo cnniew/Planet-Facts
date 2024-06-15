@@ -1,0 +1,47 @@
+.PlanetStatsItem {
+  border: var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 0.8rem 1.5rem;
+  text-transform: uppercase;
+}
+
+.PlanetStatsItem__label {
+  font-size: 0.5rem;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.73px;
+  opacity: 0.5;
+}
+
+.PlanetStatsItem__value {
+  font-family: var(--font-secondary);
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: -0.75px;
+}
+
+@media (min-width: 760px) {
+  .PlanetStatsItem {
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .PlanetStatsItem {
+    width: 16rem;
+  }
+
+  .PlanetStatsItem__label {
+    font-size: 0.68rem;
+  }
+
+  .PlanetStatsItem__value {
+    font-size: 2.5rem;
+  }
+}

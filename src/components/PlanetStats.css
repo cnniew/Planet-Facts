@@ -1,0 +1,12 @@
+.PlanetStats {
+  margin: 1.5rem;
+}
+
+@media (min-width: 760px) {
+  .PlanetStats {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: auto 0;
+  }
+}
